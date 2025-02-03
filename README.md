@@ -2,6 +2,11 @@
 
 - Install Vite using npm create vite@latest my-project -- --template react
 - Install Tailwind Into Our Project
+- Add routing in my project
+- Create Different path for different component
+- Create Header
+- Create Sign In (Form) Page and background image
+- Style Sign In Form Page
 
 # Features
 
@@ -15,6 +20,6 @@
     - Movie Title and Description
     - MovieSuggestions
       - MovieLists \* N
-- NetFlix-  Gpt
+- NetFlix- Gpt
   - Search Bar
   - Movie Suggestions
