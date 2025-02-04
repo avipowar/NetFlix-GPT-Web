@@ -7,6 +7,7 @@
 - Create Header
 - Create Sign In (Form) Page and background image
 - Style Sign In Form Page
+- Create Sign Up (Form) page
 
 # Features
 

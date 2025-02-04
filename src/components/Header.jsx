@@ -1,10 +1,10 @@
 const Header = () => {
   return (
-    <div className="absolute px-32 py-1 bg-gradient-to-b from-black/70 to-transparent z-10">
+    <div className="absolute px-32 py-1 bg-gradient-to-b from-black/60 to-transparent z-10">
       <img
         src="https://help.nflxext.com/helpcenter/OneTrust/oneTrust_production/consent/87b6a5c0-0104-4e96-a291-092c11350111/01938dc4-59b3-7bbc-b635-c4131030e85f/logos/dd6b162f-1a32-456a-9cfe-897231c7763c/4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_PMS.png"
         alt="netFlix-logo"
-        className="w-52 brightness-75 cursor-pointer"
+        className="w-52 brightness-120 cursor-pointer"
       />
     </div>
   );
