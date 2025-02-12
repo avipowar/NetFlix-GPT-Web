@@ -12,13 +12,16 @@
   - Regex use for Form Validation
 - useRef Hook now (for create reference)
 - add error message
--
+- Now we build the form authentication for that we use backend
+- And for the backend i wood be use Google FireBase
+- Set up the google firebase for your backend
 
 # Important Concept
 
 - You can access the input value of box using two ways
   1. using state variable
   2. using useRef Hook [ using reference of that input box (these reference is created by React) ]
+  3. for backend we use google Firebase
 
 # Features
 

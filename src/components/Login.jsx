@@ -24,7 +24,7 @@ const Login = () => {
       setPasswordErroMessage(message);
     }
 
-    // sign in signup
+    // sign in signup (build authentication)
   };
 
   const toggleSignInform = () => {
@@ -68,13 +68,13 @@ const Login = () => {
           ref={passwordRef}
           type="password"
           placeholder="Password "
-          className="mt-4 p-4 m-2 w-full border-2 border-gray-600  rounded-lg bg-black bg-opacity-10"
+          className="mt-1 p-4 m-2 w-full border-2 border-gray-600  rounded-lg bg-black bg-opacity-10"
         />
         <p className="text-red-600 font-bold p-2 text-sm ml-2">
           {passwordErroMessage}
         </p>
         <button
-          className="p-4 mt-5 m-2 w-full bg-red-600 text-base text-white font-bold px-6 py-3 rounded-md shadow-lg hover:bg-red-700 "
+          className="p-4 mt-2 m-2 w-full bg-red-600 text-base text-white font-bold px-6 py-3 rounded-md shadow-lg hover:bg-red-700 "
           onClick={handleSignInForm}
         >
           {signInForm ? "Sign In" : "Sign Up"}
